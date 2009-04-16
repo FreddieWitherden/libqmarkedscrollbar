@@ -271,7 +271,7 @@ void MarkedScrollBar::paintEvent(QPaintEvent *event)
         sf = (addPage.width() + subPage.width() + slider.width())
            / ((qreal) maximum() - minimum());
     }
-    else if (orientation() == Qt::Vertical)
+    else // if (orientation() == Qt::Vertical)
     {
         p.translate(0.0, qMin(subPage.top(), addPage.top()));
 
