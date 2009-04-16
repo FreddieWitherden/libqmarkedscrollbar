@@ -46,9 +46,9 @@ public:
     void removeAllShades();
 	
 	bool isClipped() const;
-	void setClipping(bool clip);
+	void enableClipping(bool clip);
 	
-	Q_PROPERTY(bool clipped READ isClipped WRITE setClipping);
+	Q_PROPERTY(bool clipped READ isClipped WRITE enableClipping);
 
 protected:
     struct markData

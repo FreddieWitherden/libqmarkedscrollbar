@@ -228,7 +228,7 @@ bool MarkedScrollBar::isClipped() const
     Sets if the slider should be used to clip the drawing of marks/shades.
 	\param clip If to clip or not.
 */
-void MarkedScrollBar::setClipping(bool clip)
+void MarkedScrollBar::enableClipping(bool clip)
 {
 	m_isClipped = clip;
 }
