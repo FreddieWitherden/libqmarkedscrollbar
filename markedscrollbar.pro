@@ -1,6 +1,6 @@
 CONFIG += qt staticlib
 TEMPLATE = lib
-TARGET = markedscrollbar
+TARGET = qmarkedscrollbar
 DEPENDPATH += . src
 INCLUDEPATH += . src
 
