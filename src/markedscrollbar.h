@@ -87,3 +87,4 @@ protected:
 };
 
 #endif // MARKEDSCROLLBAR_H
+

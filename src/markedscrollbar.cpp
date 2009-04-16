@@ -317,3 +317,4 @@ void MarkedScrollBar::paintEvent(QPaintEvent *event)
         }
     }
 }
+
